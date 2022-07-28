@@ -1,0 +1,33 @@
+## Subject ##
+CN=tapi-tst.ah.nl
+O=Organization name put here
+OU=
+L=Geneve
+S=Geneve
+C=CH
+
+#FriendlyName
+FriendlyName=tapi-tst.ah.nl
+
+## Make privatekey exportable ##
+Exportable=TRUE
+
+## Provider name and type ##
+ProviderName=Microsoft RSA SChannel Cryptographic Provider
+ProviderType=12
+## List of providers and types can be found by running "certutil –csplist" from cmd ##
+
+## This key is important when you need to create certificates that are owned by the machine and not a user ##
+MachineKeySet=TRUE
+
+## Subject Alternative Names ##
+DNS1=tapi-tst.ah.nl
+DNS2=
+DNS3=
+DNS4=
+DNS5=
+DNS6=
+
+
+## Certreq info ##
+## http://technet.microsoft.com/en-us/library/dn296456.aspx ##
